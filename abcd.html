@@ -1,0 +1,103 @@
+<html>
+<title>
+    codebyte
+</title>
+<style>
+
+    .split {
+      height: 100%;
+      width: 50%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+
+    .left {
+      left: 0;
+      background-color: white;
+    }
+
+    .right {
+      right: 0;
+      background-color: white;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .center {
+      margin: auto;
+      width: 50%;
+      padding: 100px;
+    }
+
+    .card {
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      width: 500px;
+      height: 0px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .container {
+      padding: 20px 6px;
+    }
+
+    input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 1px solid black;
+    }
+
+    .button4 {
+      background-color: white;
+      color: black;
+      border: 2px solid #e7e7e7;
+    }
+
+</style>
+
+<body>
+    <div class="split left">
+      <div class="centered">
+        <img src="https://lh3.googleusercontent.com/proxy/gPbiR66BtZexNhg-oqzhJxMIQGMBaP7YiSVSrXuMTDplmhQacDpZ6Jaqrj3iMorlI2hJdU5OAEJy8QxCGZfp3_9okl6eSg0WMeDfb9r-TP3yyMono-p5RIkQsaIceZKiEZ_axFxExkfOL3cW4NMt54n36TFwE4cOnzGVLAc" alt="Avatar woman">
+      </div>
+    </div>
+
+    <div class="split right">
+        <div class="center">
+            <p style="font-size: 40px;">CLASSIC DENIM SHIRT</p>
+        </div>
+
+        <div class="card center">
+            <div class="container">
+                <p class="center">ADD TO CART $2200</p>
+            </div>
+        </div>
+        <br>
+
+        <div class="card center">
+            <div class="container">
+                <form>
+                    <input type="text" id="fname" name="ENTER PINCODE" placeholder="CHECK COD AVAILABILITY">
+                    <input class="button4" type="button" value="Click Me" style="float: right;">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+
+</script>
+
+</html>
